@@ -1,0 +1,133 @@
+body {
+  border: 0px solid green;
+  margin: 0rem;
+}
+
+
+.App{
+  border: 3px solid black;
+  margin: 3px;
+  background-color:bisque;
+ 
+}
+
+form{
+display: grid;
+grid-template-rows: repeat(5, 10em);
+grid-template-columns: 15rem 15rem;
+margin: 0rem;
+text-align: center;
+justify-content: center;
+padding: 10px;
+column-gap: 10rem;
+}
+
+input, textarea{
+width: 17rem;
+height: 3rem;
+/* border-bottom: 2px solid black; */
+font-size: larger;
+}
+
+#form-items {
+padding: 10px;
+width: 30px;
+text-align: center;
+display: flex;
+align-items: center;
+border: none;
+}
+
+/* #date-of-birth {
+  padding: 0px;
+  width: 0px;
+  border-bottom: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border: none;
+} */
+
+
+/* 
+form-border {
+  border: none;
+  border-bottom: 1px solid rgb(0, 6, 0);
+  padding: 40px;
+} */
+
+legend {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  justify-self: center;
+  font-size: larger;
+  font-weight: 600;
+  text-decoration: solid underline;
+  padding: 3em;
+  text-align: center;
+
+}
+
+#submit-btn{
+margin-top: 20px;
+margin-bottom: 1rem;
+justify-items: center;
+font-size: larger;
+font-weight: 600;
+/* text-decoration: solid underline; */
+padding: 1em;
+text-align: center;
+display: flex;
+align-self: center;
+justify-self: center;
+margin-left: 28em;
+
+}
+
+
+#Address textarea{
+min-width: 15rem;
+min-height: 10rem;
+padding: 10px;
+}
+
+#specialist-area textarea{
+  min-width: 15rem;
+    min-height: 10rem;
+    padding: 10px;
+}
+
+.personal{
+  height: 710px;
+}
+
+.education{
+  height: 400px;
+}
+
+.certifications{
+  height: 400px;
+}
+
+.supporting-documentations{
+  height: 200px;
+}
+
+textarea{
+  display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 13rem;
+}
+#address{
+ margin-left: 20rem;
+ min-width: none;
+}
+select{
+  border: 1px solid black;
+  width: 17rem;
+    height: 3rem;
+    font-size: larger;
+}
+
+       
